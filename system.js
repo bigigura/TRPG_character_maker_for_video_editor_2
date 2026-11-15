@@ -337,7 +337,7 @@ document.getElementById("saveImage").addEventListener("click", async () => {
     useCORS: true,
     allowTaint: false,
 
-    width: width: 1300,
+    width: 1300,
     height: 630,
 
     windowWidth: document.documentElement.scrollWidth,
