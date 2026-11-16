@@ -391,6 +391,11 @@ document.getElementById("saveImage").addEventListener("click", async () => {
         const style = getComputedStyle(input);
         const label = clonedDoc.createElement('div');
 
+        if (input.value.trim() === "") {
+          input.remove();
+          return;
+        }
+
         label.textContent = input.value;
 
         [
